@@ -2,11 +2,11 @@
 
 /**
  * @ngdoc function
- * @name Polvori.controller:MainController
+ * @name polvori.controller:MainController
  * @description
  * # MainController
  */
-angular.module('Polvori')
+angular.module('polvori')
   .controller('MainController', function($scope) {
 
     // do something with $scope

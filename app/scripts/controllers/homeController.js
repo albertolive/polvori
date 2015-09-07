@@ -2,11 +2,11 @@
 
 /**
  * @ngdoc function
- * @name Polvori.controller:HomeController
+ * @name polvori.controller:HomeController
  * @description
  * # HomeController
  */
-angular.module('Polvori')
+angular.module('polvori')
   .controller('HomeController', function($scope, ExampleService) {
 
     $scope.myHTML = null;

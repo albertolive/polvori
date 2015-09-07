@@ -2,7 +2,7 @@
 
 /**
  * @ngdoc overview
- * @name Polvori
+ * @name polvori
  * @description
  * # Initializes main application and routing
  *
@@ -10,7 +10,7 @@
  */
 
 
-angular.module('Polvori', ['ionic', 'ngCordova', 'ngResource'])
+angular.module('polvori', ['ionic', 'ngCordova', 'ngResource'])
 
   .run(function($ionicPlatform) {
 

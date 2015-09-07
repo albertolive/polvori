@@ -2,11 +2,11 @@
 
 /**
  * @ngdoc function
- * @name Polvori.serive:ExampleService
+ * @name polvori.serive:ExampleService
  * @description
  * # ExampleService
  */
-angular.module('Polvori')
+angular.module('polvori')
   // use factory for services
   .factory('ExampleService', function($http, $timeout, $q) {
 

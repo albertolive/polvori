@@ -1,6 +1,6 @@
 'use strict';
 
-var appName = 'Polvori';
+var appName = 'polvori';
 
 var gulp = require('gulp');
 var plugins = require('gulp-load-plugins')();

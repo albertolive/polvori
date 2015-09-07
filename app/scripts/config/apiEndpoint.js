@@ -2,7 +2,7 @@
 
 /**
  * @ngdoc constant
- * @name Polvori.API_ENDPOINT
+ * @name polvori.API_ENDPOINT
  * @description
  * # API_ENDPOINT
  * Defines the API endpoint where our resources will make requests against.
@@ -10,7 +10,7 @@
  */
 
 
-angular.module('Polvori')
+angular.module('polvori')
 
   // development
   .constant('API_ENDPOINT', {

@@ -2,7 +2,7 @@
 
 /**
  * @ngdoc service
- * @name Polvori.ApiService
+ * @name polvori.ApiService
  * @description
  * # ApiService
  * Retrieves correct api to make requests against.
@@ -14,7 +14,7 @@
  *                 })
  *
  */
-angular.module('Polvori')
+angular.module('polvori')
   .factory('ApiService', function($window, $http, API_ENDPOINT) {
 
     var _api = API_ENDPOINT;
